@@ -20,22 +20,25 @@ const bot = new Telegraf(BOT_TOKEN);
 // Handle the /start command
 export async function handleStartCommand(ctx) {
   const COMMAND = "/start";
-  const channelUrl = "t.me/free_daily_proxies";
+  const channelUrl = "t.me/staymotivatednow";
 
   // Welcome message with Markdown formatting
   const reply = `
-  🔥 Supercharge Your Proxies Power — 100% FREE! 🔥
-Say goodbye to limits. Get instant access to Free Proxies (Socks 4&5) — no trials, no payments, just pure performance.
+🔥 Unlock Limitless Motivation — 100% FREE! 🔥
 
-🌟 Why Choose Unlimited Proxies?
-🚀 Free Proxies (Socks 4&5) — no limits, no trials, no payments
-🌍 30M+ Verified Clean IPs — zero fraud, zero hassle
-📍 Pinpoint Geo-Targeting — rule any region, anytime
-⚡ Blazing 4G Speeds — fast, stable, unstoppable
-🖥️ RDPs Launching Soon — your next-level toolkit is coming
+Say goodbye to self-doubt. Get daily power quotes, success habits & mindset hacks — no fluff, just pure inspiration.
 
-🚀 Don’t wait. Join the channel now:
-🔗 [Tap to Join Free Proxies (Socks 4&5)](${channelUrl})
+💡 Why Join Mindset Master?
+🚀 Free Daily Motivation — quotes, affirmations & challenges
+🌟 30+ Mindset Shifts — rewire your brain for success
+⚡ 5-Second Wins — quick actions for massive results
+🌍 Global Community — grow with like-minded achievers
+🎁 Exclusive Rewards — bonus content for active members
+
+🚀 Don’t overthink—JOIN NOW!
+🔗 [Tap Here for Daily Motivation](${channelUrl})
+
+(P.S. First 100 members get a FREE Success Checklist!)  
 `;
 
   try {
@@ -45,7 +48,7 @@ Say goodbye to limits. Get instant access to Free Proxies (Socks 4&5) — no tri
         inline_keyboard: [
           [
             {
-              text: "🚀 Join Free Proxies (Socks 4&5) Channel Now!",
+              text: "🚀 Tap Here for Daily Motivation",
               url: channelUrl,
             },
           ],
