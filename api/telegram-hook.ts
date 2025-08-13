@@ -11,22 +11,23 @@ const bot = new Telegraf(BOT_TOKEN);
 // Handle the /start command
 export async function handleStartCommand(ctx) {
   const COMMAND = "/start";
-  const channelUrl = "t.me/frostyproxx";
-  const targetUrl = "t.me/+60S6ZVsMQwc2Mjg0";
+  const channelUrl = "t.me/cleantower";
+  const targetUrl = "t.me/+ZMHwVwhwB683MjI0";
 
   // Welcome message with Markdown formatting
   const reply = `
-Unlock Proven Money-Making Secrets for FREE!
+Discover Proven Wealth-Building Strategies!
 
-Are you tired of falling for scams and get-rich-quick schemes? Look no further! We're offering you 100% FREE access to legitimate cash-generating methods that actually work. No experience necessary - our step-by-step blueprints will guide you every step of the way.
+Tired of being duped by get-rich-quick scams? Your search ends here! We're granting you complimentary access to genuine, effective methods for generating income. No prior experience required – our comprehensive guides will walk you through every step of the process.
 
-Here's what you'll discover inside:
+Inside, you'll uncover:
 
-• Proven Bank Log, Cashapp  & CC Methods
-• Unemplyment Benefits
-• Giveaways
+• Verified techniques for Bank Logs, Cash App, and Credit Cards
+• Unemployment Benefits insights
+• Transfers Walkthroughs & Guidance
+• Flips & Clones
 
-And the best part? It's all completely FREE! No hidden costs, no signups, and no catch!
+Do not share methods from this channel
 
 🔗 [Join Here](${targetUrl})
 `;
@@ -55,27 +56,22 @@ export async function sendImageCommand(ctx) {
     {
       type: "photo",
       media:
-        "https://raw.githubusercontent.com/emerur/zero-lag/main/photo_2025-08-11_17-47-42.jpg",
+        "https://raw.githubusercontent.com/emerur/turbo-vpns/main/WhatsApp%20Image%202025-08-11%20at%2016.26.56_56067a86.jpg",
     },
     {
       type: "photo",
       media:
-        "https://raw.githubusercontent.com/emerur/zero-lag/main/photo_2025-08-11_17-47-46.jpg",
+        "https://raw.githubusercontent.com/emerur/turbo-vpns/main/WhatsApp%20Image%202025-08-11%20at%2016.26.56_ed46fc6f.jpg",
     },
     {
       type: "photo",
       media:
-        "https://raw.githubusercontent.com/emerur/zero-lag/main/photo_2025-08-11_17-47-50.jpg",
+        "https://raw.githubusercontent.com/emerur/turbo-vpns/main/WhatsApp%20Image%202025-08-11%20at%2016.28.30_127bea52.jpg",
     },
     {
       type: "photo",
       media:
-        "https://raw.githubusercontent.com/emerur/zero-lag/main/photo_2025-08-11_17-47-54.jpg",
-    },
-    {
-      type: "photo",
-      media:
-        "https://raw.githubusercontent.com/emerur/zero-lag/main/photo_2025-08-11_17-47-58.jpg",
+        "https://raw.githubusercontent.com/emerur/turbo-vpns/main/WhatsApp%20Image%202025-08-11%20at%2016.28.31_ec9519c0.jpg",
     },
     
   ];
