@@ -3,8 +3,7 @@ import { Telegraf } from "telegraf";
 
 // Environment variables
 const BOT_TOKEN = process.env.BOT_TOKEN; // Replace with your bot toke
-///api.telegram.org/bot{token}/setWebhook?url={url}/api/telegram-hook?secret_hash=32e58fbahey833349df3383dc910e180
-//api.telegram.org/bot{token}setWebhook?url=https://mobile-proxies.vercel.app/api/telegram-hook?secret_hash=32e58fbahey833349df3383dc910e180
+
 
 const bot = new Telegraf(BOT_TOKEN);
 
